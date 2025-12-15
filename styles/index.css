@@ -1,0 +1,16 @@
+@import './reset.css';
+@import './vars.css';
+@import './media.css';
+@import './header.css';
+@import './hero.css';
+@import './seller.css';
+@import './explore.css';
+@import './marketplace.css';
+@import './popular.css';
+@import './collections.css';
+@import './crypto.css';
+@import './footer.css';
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
