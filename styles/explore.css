@@ -1,0 +1,100 @@
+#explore{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.explore-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    .arrow-explore{
+        display: flex;
+        gap: 10px;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+}
+.explore-imp{
+    display: flex;
+    justify-content: space-between;
+}
+.explore-info{
+    max-width: 250px;
+    position: relative;
+
+    
+
+    button{
+        position: absolute;
+        padding: 10px 20px;
+        background: var(--blue-1);
+        border-radius: 7px;
+        color: white;
+        top: 250px;
+        left: 55px;
+    }
+
+    .explore-text{
+    .paradox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-block: 13px;
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--ETH-color);
+            border: solid 1px var(--ETH-color);
+            border-radius: 4px;
+            padding: 2px;
+        }
+    }
+
+    .three-img{
+        display: flex;
+        align-items: center;
+        gap: 10px;   
+        p{
+            font-size: 13px;
+            color: #666666;
+            font-weight: 400;
+        }     
+    }
+
+    .music{
+        display: flex;
+        padding-top: 13px;
+        align-items: center;
+        img{
+            padding-right: 10px;
+        }
+        p{
+            font-size: 11px;
+            font-weight: 400;
+            color: #666666;
+        }
+        span{
+            font-size: 11px;
+            font-weight: 700;
+            color: black;
+        }
+        .mus{
+            margin-left: 80px;
+            font-size: 11px;
+            font-weight: 500;
+            color: #3772FF;
+            background-color: rgba(55, 114, 255, 0.2);
+            padding: 3px 8px;
+            border-radius: 4px;
+        }
+    }
+}
+
+}
