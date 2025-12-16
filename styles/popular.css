@@ -1,0 +1,70 @@
+#popular{
+    padding-bottom: 100px;
+}
+.heading{
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+}
+
+
+    
+.popular-head{
+display: flex;
+justify-content: space-between;
+padding-bottom: 30px;
+    .btn{
+        button{
+            padding: 1px 10px;
+            background: none;
+            border: solid 1.2px #888888;
+            border-radius: 5px;
+            color: var(--a-tag);
+            margin-left: 5px;
+        }
+    }
+
+    .filter{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    button{
+    background: var(--blue-1);
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    ion-icon{
+        margin-right: 10px;
+    }
+    }
+    button:last-child{
+        background-color: var(--add-color);
+}
+}
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+    padding-bottom: 50px;
+}
+
+.btn-popular{
+    text-align: center;
+    button{
+        background: var(--blue-1);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: white;
+    }
+}
+
+
+

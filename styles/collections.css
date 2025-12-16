@@ -1,0 +1,45 @@
+#collections{
+    padding-bottom: 100px ;
+}
+.collections{
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-block: 40px;
+    }
+}
+
+.parent{
+    display: flex;
+    gap: 20px;
+    .small-img{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+        
+.col-info{
+    h3{
+        font-size: 25px;
+        font-weight: 600;
+        padding-block: 15px;
+    }
+    p{
+        display: flex;
+        img{
+            margin-right: 10px;
+        }
+        span{
+            color: var(--a-tag);
+            margin-right: 5px;
+        }
+    }
+}
+
+.par-imp{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
