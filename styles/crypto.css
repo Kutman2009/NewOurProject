@@ -1,0 +1,45 @@
+#crypto{
+    background-color: #F6F7F8;
+    padding-block: 100px ;
+}
+
+.crypto{
+    .cry-img{
+    position: relative;
+    }
+    .cry-text{
+        position: absolute;
+        top: 85px;
+        left: 100px;
+        p{
+            font-size: 14px;
+            font-weight: 700;
+            color: white;
+        }
+        h2{
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+            
+        }
+    }
+
+    .btn-cry{
+        position: absolute;
+        top: 130px;
+        right: 230px;
+
+        button{
+            margin-left: 10px;
+            background-color: var(--blue-1);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 700;
+        }
+        
+    }
+}
